@@ -1,7 +1,6 @@
 {
   "name": "ProjectSmartContract",
   "version": "1.0.0",
-  "description": "",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
@@ -13,6 +12,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@openzeppelin/contracts": "^3.2.0"
-  }
+    "@openzeppelin/contracts": "^3.2.0",
+    "@truffle/hdwallet-provider": "^1.2.0",
+    "bignumber.js": "^9.0.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G-nm/ProjectContract.git"
+  },
+  "bugs": {
+    "url": "https://github.com/G-nm/ProjectContract/issues"
+  },
+  "homepage": "https://github.com/G-nm/ProjectContract#readme",
+  "description": ""
 }
